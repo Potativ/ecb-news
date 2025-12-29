@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ЕКБ Говорит – Самые лучшие новости</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    }
+
+    p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    }
+
+    .buttons {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .buttons a {
+        background: #fff;
+        color: #2575fc;
+        padding: 15px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 700;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .buttons a:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        color: #6a11cb;
+    }
+
+    .section {
+        max-width: 900px;
+        width: 100%;
+        background: rgba(255,255,255,0.05);
+        padding: 30px;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        backdrop-filter: blur(10px);
+    }
+
+    h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .review {
+        background: rgba(255,255,255,0.1);
+        padding: 15px 20px;
+        border-radius: 15px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        font-style: italic;
+    }
+
+    footer {
+        margin-top: 30px;
+        font-size: 0.9em;
+        opacity: 0.8;
+    }
+
+    @media (max-width: 600px) {
+        h1 { font-size: 2.2em; }
+        h2 { font-size: 1.5em; }
+        .buttons a { padding: 12px 25px; font-size: 0.9em; }
+    }
+</style>
+</head>
+<body>
+
+<h1>ЕКБ Говорит</h1>
+<p>Самые свежие и самые интересные новости Екатеринбурга! 🔥📰</p>
+
+<div class="buttons">
+    <a href="https://t.me/ecb_govorit" target="_blank">Telegram</a>
+    <a href="https://vk.com/ecb_govorit" target="_blank">ВКонтакте</a>
+</div>
+
+<div class="section">
+    <h2>О нас</h2>
+    <p>Мы – команда энтузиастов, которая собирает самые актуальные новости Екатеринбурга и делает их доступными каждому. У нас вы найдете важные события, культурные мероприятия, новости спорта и развлечений, а также полезные советы и гиды по городу. Наша цель – быть надежным источником информации для жителей и гостей ЕКБ!</p>
+</div>
+
+<div class="section">
+    <h2>Отзывы наших читателей</h2>
+    <div class="reviews">
+        <div class="review">"Очень нравится этот канал! Всегда в курсе всех событий города." – Алексей</div>
+        <div class="review">"Спасибо за оперативные новости! Особенно люблю блок о культуре." – Мария</div>
+        <div class="review">"Наконец-то новости без воды и лишней рекламы. Рекомендую всем!" – Игорь</div>
+        <div class="review">"Всегда узнаю что-то новое про Екатеринбург, супер!" – Елена</div>
+    </div>
+</div>
+
+<footer>
+    © 2025 ЕКБ Говорит
+</footer>
+
+</body>
+</html>
